@@ -10,43 +10,35 @@ class UsersController {
     request: Request,
     response: Response,
   ): Promise<Response<User>> {
-    try {
-      const { name, email, password } = request.body;
+    const { name, email, password } = request.body;
 
-      const userCreate = new UserCreateService();
+    const userCreate = new UserCreateService();
 
-      const user = await userCreate.execute({
-        name,
-        email,
-        password,
-      });
+    const user = await userCreate.execute({
+      name,
+      email,
+      password,
+    });
 
-      delete user.password;
+    delete user.password;
 
-      return response.json(user);
-    } catch (err) {
-      return response.status(400).json({ error: err.message });
-    }
+    return response.json(user);
   }
 
   public async UploadAvatar(
     request: Request,
     response: Response,
   ): Promise<Response<User>> {
-    try {
-      const updateUserAvatar = new UpdateUserAvatarService();
+    const updateUserAvatar = new UpdateUserAvatarService();
 
-      const user = await updateUserAvatar.execute({
-        user_id: request.user.id,
-        filename: request.file.filename,
-      });
+    const user = await updateUserAvatar.execute({
+      user_id: request.user.id,
+      filename: request.file.filename,
+    });
 
-      delete user.password;
+    delete user.password;
 
-      return response.json(user);
-    } catch (err) {
-      return response.status(400).json({ error: err.message });
-    }
+    return response.json(user);
   }
 }
 
