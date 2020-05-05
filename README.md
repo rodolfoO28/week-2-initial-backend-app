@@ -30,7 +30,7 @@ Project of week 2, create initial backend app with nodeJS. Follow the topics cov
   - Create error class
   - Handling errors
 
-# 🚀️ Week 4 - Architecture and DDD
+# 🚀️ Week 4 - Architecture and DDD / Tests and TDD
 - Architecture and DDD
   - Intro
   - DDD and TDD concepts
@@ -43,3 +43,14 @@ Project of week 2, create initial backend app with nodeJS. Follow the topics cov
   - Refactoring user module
   - Dependency injection
   - Using controllers
+- Tests and TDD
+  - Tests and TDD
+  - Configuration Jest
+  - Thinking about the tests
+  - Creating the first test
+  - Coverage report
+  - Appointments Test
+  - Users Test
+  - Authentication Test
+  - Storage Provider
+  - Update Avatar Test
