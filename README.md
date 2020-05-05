@@ -29,3 +29,17 @@ Project of week 2, create initial backend app with nodeJS. Follow the topics cov
 - Handler Exception
   - Create error class
   - Handling errors
+
+# 🚀️ Week 4 - Architecture and DDD
+- Architecture and DDD
+  - Intro
+  - DDD and TDD concepts
+  - Separating into modules
+  - Infra Layer
+  - Configuring Imports typescript
+  - Liskov Substitution Principle
+  - Rewriting Repositories
+  - Dependency Inversion Principle
+  - Refactoring user module
+  - Dependency injection
+  - Using controllers
