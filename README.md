@@ -54,3 +54,28 @@ Project of week 2, create initial backend app with nodeJS. Follow the topics cov
   - Authentication Test
   - Storage Provider
   - Update Avatar Test
+
+# 🚀️ Week 4 - Profile / Appointments Backend
+- Structure and Adjustments
+  - Mapping system features
+- Profile User
+  - Create TDD
+  - Forgot password
+  - Reset password
+  - Finish tests
+  - Save tokens in database
+  - Developing emails
+  - Template emails
+  - Template engine
+  - Refactoring tests
+  - Update profile
+  - Routes/Controllers profile
+- Appointments
+  - List providers
+  - Filter appointments by month
+  - List providers months availability
+  - List providers hour availability
+  - Ignore old times
+  - Create appointments
+  - Rules appointments
+  - Routes/Controllers
