@@ -79,3 +79,24 @@ Project of week 2, create initial backend app with nodeJS. Follow the topics cov
   - Create appointments
   - Rules appointments
   - Routes/Controllers
+
+# 🚀️ Week 5 - Finish Backend
+- Providers
+  - Schedule appointments
+  - Configuration MongoDB
+  - Notifications
+  - Sending Notification
+  - Tests
+- Custom to production
+  - Validate data using celebrate
+  - Environments Variable
+  - Class Transformer
+  - Emails with Amazon SES
+  - Organize container
+- Cache e Security
+  - Configuration cache using Redis
+  - Cache list providers
+  - Invalidate cache
+  - Cache appointments
+  - Tests
+  - Express rate limit
