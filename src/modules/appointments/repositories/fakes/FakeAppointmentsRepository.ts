@@ -27,6 +27,7 @@ export default class FakeAppointmentsRepository
     date,
   }: ICreateAppointmentDTO): Promise<Appointment> {
     const appointment = new Appointment();
+
     Object.assign(appointment, { id: uuid(), provider_id, date, user_id });
 
     this.appointments.push(appointment);
