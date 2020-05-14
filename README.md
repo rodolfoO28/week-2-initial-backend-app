@@ -93,6 +93,7 @@ Project of week 2, create initial backend app with nodeJS. Follow the topics cov
   - Class Transformer
   - Emails with Amazon SES
   - Organize container
+  - Upload files using Storage S3
 - Cache e Security
   - Configuration cache using Redis
   - Cache list providers
