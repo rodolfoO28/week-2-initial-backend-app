@@ -1,7 +1,7 @@
 node_modules
 *.lock
 
-tmp/*
+tmp/**/*.*
 !tmp/.gitkeep
 !tmp/**/.gitkeep
 

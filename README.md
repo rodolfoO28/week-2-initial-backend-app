@@ -1,6 +1,6 @@
 <img alt="GoStack" src="https://storage.googleapis.com/golden-wind/bootcamp-gostack/header-desafios.png" />
 
-# 🚀️ Week 2 - Initial Backend App
+# 🚀️ Initial Backend App
 
 Project of week 2, create initial backend app with nodeJS. Follow the topics covered below:
 - Databases
@@ -30,7 +30,7 @@ Project of week 2, create initial backend app with nodeJS. Follow the topics cov
   - Create error class
   - Handling errors
 
-# 🚀️ Week 4 - Architecture and DDD / Tests and TDD
+# 🚀️ Architecture and DDD / Tests and TDD
 - Architecture and DDD
   - Intro
   - DDD and TDD concepts
@@ -55,7 +55,7 @@ Project of week 2, create initial backend app with nodeJS. Follow the topics cov
   - Storage Provider
   - Update Avatar Test
 
-# 🚀️ Week 4 - Profile / Appointments Backend
+# 🚀️ Profile / Appointments Backend
 - Structure and Adjustments
   - Mapping system features
 - Profile User
@@ -80,7 +80,7 @@ Project of week 2, create initial backend app with nodeJS. Follow the topics cov
   - Rules appointments
   - Routes/Controllers
 
-# 🚀️ Week 5 - Finish Backend
+# 🚀️ Finish Backend
 - Providers
   - Schedule appointments
   - Configuration MongoDB
@@ -101,3 +101,10 @@ Project of week 2, create initial backend app with nodeJS. Follow the topics cov
   - Cache appointments
   - Tests
   - Express rate limit
+- API adjustments
+  - Using Query Params
+  - Appointments in same date
+  - Days unavailable in month
+  - Data of user in the appointments
+  - Serialization in the cache
+  - Organizando Insomnia

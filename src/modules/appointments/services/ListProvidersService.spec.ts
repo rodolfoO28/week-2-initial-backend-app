@@ -63,6 +63,12 @@ describe('ListProviders', () => {
     await listProviders.execute({ user_id: loggedUser.id });
     const providers = await listProviders.execute({ user_id: loggedUser.id });
 
-    expect(providers).toEqual([user1, user2]);
+    delete user1.password;
+    delete user2.password;
+
+    expect(providers).toEqual([
+      { ...user1, avatar_url: null },
+      { ...user2, avatar_url: null },
+    ]);
   });
 });
