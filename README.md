@@ -2,7 +2,6 @@
 
 # 🚀️ Initial Backend App
 
-Project of week 2, create initial backend app with nodeJS. Follow the topics covered below:
 - Databases
   - Abstraction strategies
   - Intro Docker
@@ -31,6 +30,7 @@ Project of week 2, create initial backend app with nodeJS. Follow the topics cov
   - Handling errors
 
 # 🚀️ Architecture and DDD / Tests and TDD
+
 - Architecture and DDD
   - Intro
   - DDD and TDD concepts
@@ -56,6 +56,7 @@ Project of week 2, create initial backend app with nodeJS. Follow the topics cov
   - Update Avatar Test
 
 # 🚀️ Profile / Appointments Backend
+
 - Structure and Adjustments
   - Mapping system features
 - Profile User
@@ -81,6 +82,7 @@ Project of week 2, create initial backend app with nodeJS. Follow the topics cov
   - Routes/Controllers
 
 # 🚀️ Finish Backend
+
 - Providers
   - Schedule appointments
   - Configuration MongoDB
@@ -108,3 +110,6 @@ Project of week 2, create initial backend app with nodeJS. Follow the topics cov
   - Data of user in the appointments
   - Serialization in the cache
   - Organizando Insomnia
+
+# 🚀️ Deploy Backend App
+- Configuration build/deploy
